@@ -3,10 +3,10 @@
 # ask the user for input
 text = input("Input: ")
 # inspect each character if it is a non-space character
-for char in text:
-    if char == " ":          # if no, continue
+for char in range(len(text)):
+    if text[char] == " ":          # if no, continue
         continue  
-    if char != " ":          # if yes, break then print the rest of the characters
+    if text[char] != " ":          # if yes, break then print the rest of the characters
         break 
 # print output
-print(text)
+print(text[char])
