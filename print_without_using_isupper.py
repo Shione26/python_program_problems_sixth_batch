@@ -7,6 +7,12 @@ text = input("Input: ")
 uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 # check manually if all characters is on uppercase
-    # if yes, print True
-    # if no, print False
+for char in text:
+    if char not in uppercase:   # if no, print False
+        print("False")
+        break
+else:
+    print("True")   # if yes, print True
+    
+
         
