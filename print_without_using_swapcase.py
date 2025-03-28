@@ -4,6 +4,8 @@
 text = input("Input: ")
 
 # initialize an empty string to store the result
+swapped_text = "" 
+
 # look through each character in the text
 # check if the character is uppercase
     # if yes, convert to lowercase and store
