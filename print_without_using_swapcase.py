@@ -7,8 +7,12 @@ text = input("Input: ")
 swapped_text = "" 
 
 # look through each character in the text
+for char in text:
 # check if the character is uppercase
-    # if yes, convert to lowercase and store
-    # else, convert to uppercase and store
+    if char.isupper():
+        swapped_text += char.lower()  # Convert to lowercase and store
+    else:
+        swapped_text += char.upper()  # Convert to uppercase and store
+
 # print output
 print(text)
