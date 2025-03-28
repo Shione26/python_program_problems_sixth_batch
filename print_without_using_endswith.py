@@ -4,6 +4,9 @@
 text = input("Input: ")
 # ask the user the suffix
 suffix = input("Suffix: ")
+
 # check if the suffix is at the end of the index
-# if yes, print True
-# if no, print False
+if text[-len(suffix):] == suffix:
+    print("True")   # if yes, print True
+else:
+    print("False")  # if no, print False
