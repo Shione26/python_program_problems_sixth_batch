@@ -16,5 +16,6 @@ for word in splitted_words:
     capitalized.append(first + rest)
 
 # join the splitted words back to one
+result = " ".join(capitalized)
 # print output
-print(capitalized)
+print(result)
