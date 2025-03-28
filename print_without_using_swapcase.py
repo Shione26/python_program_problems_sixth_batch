@@ -15,4 +15,4 @@ for char in text:
         swapped_text += char.upper()  # Convert to uppercase and store
 
 # print output
-print(text)
+print(swapped_text)
