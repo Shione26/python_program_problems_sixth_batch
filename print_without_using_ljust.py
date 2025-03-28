@@ -2,12 +2,5 @@
 
 # ask the user for input 
 # ask the user for the number of characters included the characters in the left and the space characters
-# 
-
-text = input("Input: ")
-width = input("Width: ")
-space = " "
-
-output = text + (space * width - (len(text)))
-
-print(output)
+# concatenate the text and the spaces minus the length of the text
+# print output
