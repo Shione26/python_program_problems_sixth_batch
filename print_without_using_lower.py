@@ -13,7 +13,12 @@ lowercase = "abcdefghijklmnopqrstuvwxyz"
 result = ""
 
 # check if character is in the list of uppercase
-    # if yes, find the position of that uppercase 
-    # convert it to its corresponding index in lowercase then store in the initialized empty string
+for char in text:
+    if char in uppercase:
+        index = uppercase.index(char)      # if yes, find the position of that uppercase 
+        result += lowercase[index]        # convert it to its corresponding index in lowercase then store in the initialized empty string
+    else:
+        result += char                    # if no, just store the lowercase letter in the empty string
+   
 # print output
-print(text)
+print(result)
