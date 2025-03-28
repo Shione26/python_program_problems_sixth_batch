@@ -3,7 +3,9 @@
 # ask user for input
 text = input("Input: ")
 # create an empty list to store the capitalized texts
+capitalized = []
 # split the strings
+splitted_words = text.split()
 # convert the first letter to uppercase and the rest to lowercase then store in the list
 # join the splitted words back to one
 # print output
