@@ -4,6 +4,8 @@
 text = input("Input: ")
 
 # define uppercase characters
+uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
 # check manually if all characters is on uppercase
     # if yes, print True
     # if no, print False
