@@ -3,7 +3,10 @@
 # ask the user for input
 text = input("Input: ")
 # convert the first string character to uppercase
+first_letter = text[0].upper()
 # convert the rest string to lowercase
+rest_of_letters = text[1:].lower()
 # concatenate
+result = first_letter + rest_of_letters
 # print output
-print(text)
+print(result)
